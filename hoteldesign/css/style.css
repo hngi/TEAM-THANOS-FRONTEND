@@ -1,0 +1,120 @@
+p{
+font-family: Mukta;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 33px;
+
+color: #000000;
+
+
+}
+body{
+  background-color: #FBFBFB;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+    box-sizing: border-box;
+}
+ .absolute{
+    margin-left: 20px;
+    border-bottom: 2px solid#F2B30F;
+    border-top: 2px solid orange;
+    border-right: 2px solid orange;
+    
+    padding: 10px;
+    margin: 10px;
+    margin-right: 20px;
+}
+.mail{
+  background-color: #DADADA;
+text-align: center;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-top: 15px;
+padding-bottom: 15px;
+  
+  
+}
+.view{
+  text-align: center;
+}
+h2{
+
+
+font-family: Mukta;
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 100px;
+
+color: #06348C;
+}
+footer{
+  background-color: #06348C;
+}
+button{
+
+
+background: #234B9A;
+border-radius: 10px;
+
+}
+p.amount{
+    float: right;
+}
+p.star{
+    float: right;
+    padding-top: 5px;
+}
+.header-img {
+    width: 100%;
+    height: 800px;
+    background: url('https://res.cloudinary.com/oma16/image/upload/v1591785802/isai-ramos-A6WQ57dzHgU-unsplash_1_pfwe3z.png');
+    background-size: cover;
+  }
+.topnav{
+    overflow: hidden;
+    background-color: none;
+
+}
+.topnav a{
+    float: left;
+    color: blue;
+    padding: 14px 16px;
+    font-size: 24px;
+    font-family: Mukta;
+}
+.menu {
+    float: right;
+    color: blue;
+  }
+  
+  .menu ul {
+    list-style: none;
+  text-decoration: blue;
+    
+  }
+  .menu li {
+    display: inline-block;
+    padding: 0 20px;
+  }
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Lato';
+  }
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  
+    
+    
+ 
