@@ -39,6 +39,7 @@
             #ngn {
                 width: 20px;
                 height: 15px;
+                margin-bottom: 5px;
             }
             
             .nav-title h1 {
@@ -245,6 +246,10 @@
                 overflow: hidden;
             }
             
+            .dropdwn {
+                visibility: hidden;
+            }
+            
             .deals-card img {
                 margin-top: -7.5rem;
                 z-index: 1;
@@ -316,6 +321,22 @@
                 border-left: 4px solid #F2B30F !important;
             }
             
+            #menu {
+                background-color: #234B9A !important;
+                color: white !important;
+                margin-top: 10px;
+                margin-right: 5px;
+            }
+            
+            .menuopt {
+                color: white !important;
+                font-size: large !important;
+            }
+            
+            .menuhead {
+                background-color: #234B9A !important;
+            }
+            
             @media only screen and (max-width:768px) {
                 .homepage {
                     background-image: url('https://res.cloudinary.com/valodagreat/image/upload/v1591801623/isai-ramos-A6WQ57dzHgU-unsplash_1_z8jjjf.png');
@@ -323,6 +344,9 @@
                     background-size: cover;
                     height: 400px;
                     width: 100%;
+                }
+                .dropdwn {
+                    visibility: visible;
                 }
                 .headers {
                     display: flex;
@@ -496,5 +520,11 @@
                     height: 13px;
                     margin-top: -25px;
                     margin-left: 7px;
+                }
+                .title-bar {
+                    align-self: center;
+                    width: 43%;
+                    border-bottom: 3px solid #F2B30F;
+                    margin-right: 65px;
                 }
             }
