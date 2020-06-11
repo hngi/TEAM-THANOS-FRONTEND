@@ -69,7 +69,7 @@ right: 2rem!important;
   background-color:white;
 }
 .facil-sec{
-  text-align: center;
+  text-align: center!important;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -249,3 +249,49 @@ font-style: normal;
 
 color: #FFFFFF;
 }
+
+
+
+
+/***************************************************************
+******************styling for rooms*****************************
+*****************************************************************/
+
+        .room-cont{
+          padding-top: 1rem;
+        }
+        .btn {
+            background-color: #06348C;
+            margin-top: 50px;
+        }
+        
+        .room-car {
+            margin: 0 auto;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        .room-car .col-md-5{
+          padding-right: 0!important;
+          } 
+          .room-car .col-md-7{
+            padding-left: 0!important
+        }
+        .room{
+          border: 2px solid #F2B30F;
+          border-left: none;
+        }
+        .col-md-7 h5, .col-md-7 p, .col-md-7 .btn, .col-md-7 blockquote{
+          padding-left: 1rem!important;
+        }
+        .card-text {
+            color: #000000;
+        }
+        
+        .price {
+            position: absolute;
+        }
+        .col-md-5 img{
+          display: block;
+          width: 100%;
+          height:auto;
+        }
