@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BLISS HOTEL</title>
     <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
@@ -27,21 +28,25 @@
                 <nav class="navheader">
                     <ul>
                         <li><a href="#rooms">Rooms</a></li>
-                        <li><a href="facilities.html">Facilities</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#facility">Facilities</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
                         <li><a href="#">Register</a></li>
                         <li><a href="#">Sign In</a></li>
                     </ul>
                 </nav>
                 <div class="dropdwn">
-                    <select name="sectional_nav" id="sectional_nav" onchange="window.location.href=this.value">
-						<option value="0" selected disabled>More</option>
-						<option value="#rooms">Rooms</option>
-						<option value="#">Facilities</option>
-						<option value="#">Contact Us</option>
-						<option value="#">Register</option>
-						<option value="#">Sign In</option>
-					</select>
+                    <div class="dropdown dropleft">
+                        <button type="button" class="btn btn-primary dropdown-toggle" id="menu" data-toggle="dropdown">
+                          Menu
+                        </button>
+                        <div class="dropdown-menu menuhead">
+                            <a class="dropdown-item menuopt" href="#rooms">Rooms</a>
+                            <a class="dropdown-item menuopt" href="#facility">Facilities</a>
+                            <a class="dropdown-item menuopt" href="#contact">Contact Us</a>
+                            <a class="dropdown-item menuopt" href="#">Register</a>
+                            <a class="dropdown-item menuopt" href="#">Sign in</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
@@ -267,6 +272,73 @@
         </div>
         <div class="text-center allrooms">
             <button>Explore All Rooms</button>
+        </div>
+    </section>
+    <section>
+        <div class="facilities">
+            <div class="facilityheader">
+                <h1 id="facility">State of the arts facilities</h1>
+            </div>
+            <div class="d-flex justify-content-around facilitators">
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="https://res.cloudinary.com/valodagreat/image/upload/v1591891755/hotel-parking-theft-1_2_h1p9wt.png" class="card-img-top" alt="cinema">
+                        <div class="card-body facil">
+                            <h4 class="card-title">Cinema</h4>
+                            <p class="card-text"><span class="check"><i class="fa fa-check"></i></span> Kid's TV channel</p>
+                            <p class="card-text"><span class="check"><i class="fa fa-check"></i></span> Books,DVDs & music for kids</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://res.cloudinary.com/valodagreat/image/upload/v1591891779/hotel-parking-theft-1_3_qds5q8.png" class="card-img-top" alt="internet">
+                        <div class="card-body facil">
+                            <div class="d-flex justify-content-between facfree">
+                                <h4 class="card-title">Internet</h4>
+                                <p>free!</p>
+                            </div>
+                            <p class="card-text"><span class="check"><i class="fa fa-check"></i></span> WiFi is available in all areas and it is free of charge</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://res.cloudinary.com/valodagreat/image/upload/v1591891781/hotel-parking-theft-1_4_qmba4w.png" class="card-img-top" alt="Facilities">
+                        <div class="card-body facil">
+                            <h4 class="card-title">Health & Wellness Facilities</h4>
+                            <p class="card-text"><span class="check"><i class="fa fa-check"></i></span> Hot tub/Jacuzzi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="text-center alldeals">
+            <button>View All Facilities</button>
+        </div>
+    </section>
+    <section>
+        <div class="d-flex justify-content-around  location">
+            <img src="https://res.cloudinary.com/valodagreat/image/upload/v1591901001/Rectangle_qhvxmm.png" alt="location">
+            <div class="contactaddress">
+                <h1 id="contact">Contact us</h1>
+                <address>20 Nnajiofor way,<br>Banana Island Ikoyi, <br>Lagos,<br>Nigeria</address>
+                <address>Call:+2347062022305</address>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="mail">
+            <div class="emailhead">
+                <h2>Enter your email address</h2>
+            </div>
+            <div class="emale">
+                <form>
+                    <div class="emailheader">
+                        <input type="email" placeholder="Enter your email address">
+                        <button>Unlock</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </section>
     <script src="https://kit.fontawesome.com/483c958bba.js" crossorigin="anonymous"></script>
