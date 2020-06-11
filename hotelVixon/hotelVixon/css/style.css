@@ -16,6 +16,7 @@ body {
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;*/
+  padding-top: 3rem;
 
 }
 .navbar-brand{
@@ -80,10 +81,10 @@ right: 2rem!important;
   background: #234B9A;
   border-radius: 10px;
   font-family: Mukta;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 60px;
   color: #FFFFFF;
 }
@@ -156,24 +157,6 @@ color: #453F3F;
 .titleWithDetails h4>input{
   border: none;
 }
-#packing {
-}
-
-#safety {  
-}
-
-#cleaning {
-}
-
-#cinema {
-}
-
-#internet {
-}
-
-#health {
-}
-
 
 
 
@@ -196,6 +179,10 @@ footer {
   }
   .cont {padding-top: 3rem; 
     padding-left: 2rem;
+}
+.cont a{
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .svg{
