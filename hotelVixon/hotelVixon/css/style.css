@@ -3,6 +3,13 @@ body {
   font-size: 12px;
   color: black;
 }
+.container-fluid{
+  padding: 0!important;
+}
+.content{
+  padding-left: 10%;
+  padding-right: 10%;
+}
 .header{
   background: url(https://res.cloudinary.com/epospiky/image/upload/v1591831386/hotelVixon/Homepage/isai-ramos-A6WQ57dzHgU-unsplash_1.png) no-repeat;
   background-size: 100% 100%;/*
@@ -31,7 +38,7 @@ body {
   font-weight: bold;
   color: #06348C;
   font-size: 2.5rem;
-  padding-top: 2.5rem;
+  padding-top: 4rem;
   padding-bottom: 2rem;
 }
 .header hr{
@@ -40,7 +47,7 @@ body {
   text-align: center;
   height: 4px;
   border-top:4px solid #f2830F;
-  padding-bottom: 10rem;
+  padding-bottom: 14rem;
 }
 #free {
   position: absolute;
@@ -63,6 +70,7 @@ right: 2rem!important;
 .facil-sec{
   text-align: center;
   padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .facil-sec a{
   text-decoration: none!important;
@@ -132,10 +140,10 @@ font-size: 1.5rem;
 color: #453F3F;
 }
 
-
 .titleWithDetails {
   border: 1.5px solid #27647E;
   border-top: none;
+  padding-top: 3px;
   box-sizing: border-box;
 }
 
@@ -164,4 +172,93 @@ color: #453F3F;
 }
 
 #health {
+}
+
+
+
+
+/*******************************************************************
+*********************styling for footer*****************************
+********************************************************************/
+footer {
+  
+  padding: 3px;
+  background-color: #06348c;
+  color: white;
+  position:absolute;
+  width:100%;
+  text-align: center;
+
+  }
+  .cl-path{
+    padding-top: 0!important;
+    margin-top: 0!important;
+  }
+  .cont {padding-top: 3rem; 
+    padding-left: 2rem;
+}
+
+.svg{
+  margin: 0px;
+}
+
+.fab {
+  border-radius: 50%!important;
+  padding-right: 1rem;
+}
+.bh{
+/*position: absolute;
+width: 233.1px;
+height: 49.98px;*/
+display: flex;
+flex-direction: column;
+
+}
+.bh p {
+  padding-left: 1.5rem;
+}
+.bh h2{
+/*position: absolute;
+width: 233.1px;
+height: 49.98px;*/  
+margin: 0px;
+padding-left: 0px;
+font-family: Mukta;
+font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+font-style: normal;
+
+color: #FFFFFF;
+}
+
+
+.cu h3{
+font-family: Mukta;
+font-weight: 600;
+font-size: 24px;
+line-height: 40px;
+font-style: normal;
+
+color: #FFFFFF;
+}
+
+.com h3 {
+font-family: Mukta;
+font-weight: 600;
+font-size: 24px;
+line-height: 40px;
+font-style: normal;
+
+color: #FFFFFF;
+}
+
+.fu h3{
+font-family: Mukta;
+font-weight: 600;
+font-size: 24px;
+line-height: 40px;
+font-style: normal;
+
+color: #FFFFFF;
 }
