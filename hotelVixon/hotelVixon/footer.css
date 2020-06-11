@@ -15,7 +15,14 @@ footer {
   justify-content: space-around;  
 }
 
+.svg{
+	margin: 0px;
+}
 
+.fab {
+	border-radius: 50%!important;
+	padding-right: 1rem;
+}
 .bh{
 /*position: absolute;
 width: 233.1px;
@@ -23,6 +30,9 @@ height: 49.98px;*/
 display: flex;
 flex-direction: column;
 
+}
+.bh p {
+	padding-left: 1.5rem;
 }
 .bh h2{
 /*position: absolute;
