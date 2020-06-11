@@ -1,26 +1,58 @@
 body {
-  font-family: Sans-Serif, Monospace;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 12px;
   color: black;
 }
+.header{
+  background: url(https://res.cloudinary.com/epospiky/image/upload/v1591831386/hotelVixon/Homepage/isai-ramos-A6WQ57dzHgU-unsplash_1.png) no-repeat;
+  background-size: 100% 100%;/*
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;*/
 
+}
+.navbar-brand{
+  color: #234B9A!important;
+  font-weight: bold;
+}
+.nav-item{
+  padding-right: 3rem!important;
+}
+.nav-link{
+   color: #234B9A!important;
+  font-weight: 600;
+}
+.nav-link img{
+  top: 0!important;
+}
+
+.header h3{
+  text-align: center;
+  font-weight: bold;
+  color: #06348C;
+  font-size: 2.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+}
+.header hr{
+  font-size: 600;
+  width: 40%;
+  text-align: center;
+  height: 4px;
+  border-top:4px solid #f2830F;
+  padding-bottom: 10rem;
+}
 #free {
-width: 72px;
-height: 36px;
-
+  position: absolute;
 background: #37A335;
 border-radius: 10px;
-width: 57px;
-height: 37px;
-left: 857px;
-top: 2267px;
+padding: 0.5rem;
 font-family: Mukta;
 font-style: normal;
 font-weight: bold;
-font-size: 15px;
-line-height: 33px;
-
+font-size: 1rem;
 color: #FFFFFF;
+right: 2rem!important;
 }
 
 #free :hover {
@@ -28,39 +60,48 @@ color: #FFFFFF;
   cursor: pointer;
   background-color:white;
 }
-
-#show-all-facilities {
-  left: 36.04%;
-  right: 38.96%;
-  top: 84.55%;
-  bottom: 13.04%;
+.facil-sec{
   text-align: center;
+  padding-top: 3rem;
+}
+.facil-sec a{
+  text-decoration: none!important;
+}
+#show-all-facilities {
+  text-align: center!important;
   background: #234B9A;
   border-radius: 10px;
   font-family: Mukta;
+  padding: 1rem 2rem;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
   line-height: 60px;
   color: #FFFFFF;
 }
-
-ul li {
+.titleImage img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.titleWithDetails ul li {
   text-decoration: none;
   text-decoration-style: none;
   list-style: none;
   text-align: center;
   font-family: Mukta;
   font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 25px;
-  text-align: center;
-
+  font-size: 1rem;
+  text-align: left!important;
 color: #000000;
 }
-
-.main-container {
+.titleWithDetails ul li:before{
+  content: '\2713';
+  display: inline-block;
+  color: green;
+  padding-right: 2rem;
+}
+/*.main-container {
   width: 1440px;
   height: 2059px;
   left: 0px;
@@ -76,119 +117,51 @@ color: #000000;
   grid-template-rows: auto;
   margin: 10px;
 }
-
+*/
 .facilities {
   display: block;
+  padding-top: 3rem;
 }
 
-h4 a { 
+.titleWithDetails h4{ 
 text-align: center;
-width: 408px;
-height: 64px;
 font-family: Mukta;
 font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 60px;
-
+font-weight: 600;
+font-size: 1.5rem;
 color: #453F3F;
-text-decoration: none;
 }
 
 
-#packingdetails {
-  width: 420px;
-  height: 199px;
-  left: 58px;
-  top: 1329px;
+.titleWithDetails {
   border: 1.5px solid #27647E;
+  border-top: none;
   box-sizing: border-box;
 }
 
-#safetydetails {
-width: 420px;
-height: 198px;
-left: 505px;
-top: 1329px;
-border: 1.5px solid #27647E;
-box-sizing: border-box;
+.titleWithDetails {
+  text-align: center;
 }
-
-#cleaningdetails {
-width: 420px;
-height: 203px;
-left: 962px;
-top: 1324px;
-border: 1.5px solid #27647E;
-box-sizing: border-box;
+.titleWithDetails  ul>li{
+  text-align: center;
 }
-
-#cinemadetails {
-width: 418px;
-height: 194px;
-left: 59px;
-top: 2245px;
-border: 2px solid #27647E;
-box-sizing: border-box;s
+.titleWithDetails h4>input{
+  border: none;
 }
-
-#internetdetails {
-width: 418px;
-height: 194px;
-left: 506px;
-top: 2245px;
-border: 2px solid #27647E;
-box-sizing: border-box;
-}
-
-#healthdetails {
-width: 418px;
-height: 191px;
-left: 961px;
-top: 2246px;
-border: 2px solid #27647E;
-box-sizing: border-box;
-}
-
-
 #packing {
-width: 420px;
-height: 617.4px;
-left: 58px;
-top: 713px;
 }
 
 #safety {  
-width: 420px;
-height: 617px;
-left: 506px;
-top: 713px;
 }
 
 #cleaning {
-width: 420px;
-height: 611px;
-left: 961px;
-top: 713px;
 }
 
 #cinema {
-width: 420px;
-height: 627.67px;
-left: 58px;
-top: 1618px;
 }
 
 #internet {
-width: 420px;
-height: 627.9px;
-left: 505px;
-top: 1618px;
 }
 
 #health {
-width: 420px;
-height: 628px;
-left: 960px;
-top: 1618px;
 }
