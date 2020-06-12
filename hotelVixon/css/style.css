@@ -413,4 +413,9 @@ form button{
   padding-top: 1rem;
 
 }
+
+.room{
+          border: 2px solid #F2B30F;
+          border-top: none;
+        }
 }
