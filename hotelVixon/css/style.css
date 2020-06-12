@@ -367,6 +367,24 @@ form button{
     margin-right: 0!important;
 }
 
+
+
+/******************************************************
+*************** styling for index*********************
+******************************************************/
+.emailheader{
+  text-align: center;
+}
+.emailheader input, .emailheader button{
+  display: inline;
+}
+.emailheader input{
+  margin-right: -2px!important;
+}
+.emailheader button{
+  margin-left: -4px!important;
+}
+
 @media only screen and (max-width:768px) {
 
   form input{
