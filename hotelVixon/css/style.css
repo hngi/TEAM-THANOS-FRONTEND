@@ -406,8 +406,11 @@ form button{
         width: 100%;
     text-align: center;
 }
-cont {padding-top: 3rem; 
+.cont {padding-top: 3rem; 
     padding-left: 0rem;
 }
+.header{
+  padding-top: 1rem;
 
+}
 }
