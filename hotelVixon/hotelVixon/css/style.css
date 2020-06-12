@@ -295,3 +295,97 @@ color: #FFFFFF;
           width: 100%;
           height:auto;
         }
+
+        /*-***************************************************
+        **************styling for contact us******************
+        ******************************************************/
+
+
+
+.cont-fluid{
+    background-color: rgba(39, 100, 126, 0.1);
+}
+
+#formArea{
+    color: rgb(41, 41, 136);
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+
+#formArea h3 {
+    font-size: 1.2rem;
+}
+/*name, email,sub*/
+
+form input{
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding-top: 15px;
+    padding: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+form input[textarea]{
+   line-height: 100px;
+}
+
+form button{
+    background-color:rgb(41, 41, 136);
+    padding: .7rem 2.5rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    color: #ffffff;
+}
+
+#googleMap{
+    text-align: center;
+}
+#newsletter {
+    text-align: center;
+}
+#newsletter p{
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    color: rgb(41, 41, 136);
+    font-size: 1.3rem;
+}
+#newsletter button{
+    display: inline;
+    margin-left: -6px!important;
+    border-radius: 0 0.5rem 0.5rem 0; 
+}
+#newsletter input{
+    display: inline-block;
+    margin-right: 0!important;
+}
+
+@media only screen and (max-width:768px) {
+
+  form input{
+    display: block;
+    width: 80%;
+    margin: auto;
+
+    padding-top: 15px;
+    padding: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}  
+    #newsletter input{
+        width: 50%;
+    display: inline-block;
+    margin-right: 0!important;
+}
+    #googleMap{
+        width: 100%;
+    text-align: center;
+}
+}
