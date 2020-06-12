@@ -413,7 +413,9 @@ form button{
   padding-top: 1rem;
 
 }
-
+.col-md-5{padding-left:0!important;
+          Margin-left:0!important;
+        }
 .room{
           border: 2px solid #F2B30F;
           border-top: none;
