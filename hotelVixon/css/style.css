@@ -78,6 +78,9 @@ right: 2rem!important;
 .facil-sec a{
   text-decoration: none!important;
 }
+.facil-sec p{
+  margin: auto;
+}
 #show-all-facilities {
   text-align: center!important;
   background: #234B9A;
@@ -330,6 +333,10 @@ color: #FFFFFF;
     width: 100%;
     padding: 15px;
     margin-top: 10px;
+}
+#formArea input[type=email]{
+  width: 50%!important;
+  margin: auto!important;
 }
 
 
@@ -1057,11 +1064,15 @@ form button{
                     }
                 iframe{
                     padding-right: 0.5rem!important;
+                    width: inherit;
                 }
 
                 .card-text-det{
                 width: 100%;
         }
+              #formArea input[type=email]{
+                width: 80%!important;
+              }
             }
             
             @media only screen and (max-width:375px) {
