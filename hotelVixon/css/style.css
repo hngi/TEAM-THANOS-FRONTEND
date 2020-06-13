@@ -1133,4 +1133,9 @@ form button{
           border: 2px solid #F2B30F;
           border-top: none;
         }
+
+.room .card-title{
+          font-size: 1.5rem;
+        }
+
 }
