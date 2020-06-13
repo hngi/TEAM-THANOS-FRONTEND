@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+    box-sizing: border-box;
+}
+.homepage{
+    background-image: url('images/isai-ramos-A6WQ57dzHgU-unsplash 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 664px;
+}
+.headers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.navheader ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0px;
+    background-color: transparent;
+}
+
+.nav-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px 0 46px;
+    margin: 0;
+}
+#ngn{
+    width: 20px;
+    height: 15px;
+}
+.nav-title h1{
+    margin-bottom: 0em;
+    color: #234B9A;
+    padding-top: 15px;
+}
+.title-bar{
+    align-self: center;
+    width: 75%;
+    border-bottom: 4px solid #F2B30F;
+}
+.navheader li{
+    font-size: large;
+    color: #234B9A;
+    padding-right: 100px;
+    padding-top: 25px;
+}
+.navheader a{
+    text-decoration: none;
+    color: #234B9A;
+    font-size: large;
+}
+.navheader a:hover{
+    text-decoration: none;
+}
+.nigul ul{
+    list-style: none;
+}
+.nigul li{
+    font-size: large;
+    color: #234B9A;
+    padding-top: 25px;
+    padding-left: 100px;
+}
+select{
+    visibility: hidden;
+    text-overflow: '';
+}
+.maincontent h2{
+    text-align: center;
+    color: #06348C;
+    padding: 45px 25px 15px 25px;
+    font-size: xx-large;
+    font-weight: 900;
+}
+.banner-input{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.bg-transparent{
+    background-color: transparent !important;
+    border: none !important;
+}
+.banner-input-border{
+    border-top:  2px solid #F2B30F !important;
+    border-bottom:  2px solid #F2B30F !important;
+    border-radius: 0 !important;
+}
+.b-right{
+    border-right: 2px solid #F2B30F !important;
+    border-radius: 0 !important;
+}
+.b-left{
+    border-left: 2px solid #F2B30F !important;
+    border-radius: 0 !important;
+}
+.b-radius{
+    border-radius: 5px 0 0 5px !important;
+}
+.br-none{
+    border-right: none !important;
+}
+.dark-primary{
+    background: #234B9A !important;
+    border-radius: 0px 5px 5px 0px !important;
+}
+.b-tino:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+.b-right{
+    outline: 0;
+    box-shadow: none !important;
+}
+.adverts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.disc{
+    margin-left: 19px;
+    align-self: center;
+    width: 75%;
+    border-bottom: 2px solid #06348C;
+}
+.discounts p,.free p,.excel p{
+    padding: 15px;
+    color: #234B9A;
+}
+.discounts h2{
+    color: #234B9A;
+    padding-left: 17px;
+}
+.excel h2{
+        color: #234B9A;
+        padding-left: 12px;
+}
+.free h2{
+    color: #234B9A;
+    text-align: center;
+}
+.feer{
+    margin-left: 22px;
+    align-self: center;
+    width: 75%;
+    border-bottom: 2px solid #F20F0F;
+}
+.excellence{
+    margin-left: 22px;
+    align-self: center;
+    width: 60%;
+    border-bottom: 2px solid #37A335;
+}
+.adverts{
+    background-color: rgba(39, 100, 126, 0.1);;
+}
+@media only screen and (max-width:768px){
+.homepage{
+    background-image: url('images/isai-ramos-A6WQ57dzHgU-unsplash 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.headers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.navheader ul{
+    display: none;
+}
+#ngn{
+    width: 20px;
+    height: 13px;
+}
+.nigul ul{
+    list-style: none;
+}
+.nav-title h1{
+    margin-bottom: 0em;
+    color: #234B9A;
+    padding: 0px 0px 0px 5px;
+}
+.title-bar{
+    align-self: center;
+    width: 75%;
+    border-bottom: 4px solid #F2B30F;
+    margin-top: 0px;
+    margin-left: -5px;
+}
+.nav-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+}
+.navheader{
+    display: none;
+}
+.nigul li{
+    padding: 15px 0px 0px 0px;
+}
+.dropdwn select{
+    visibility: visible;
+    margin-top: 15px;
+    margin-right: 10px;
+    color: white;
+    background-color: #234B9A;
+}
+.maincontent h2{
+    text-align: center;
+    color: #06348C;
+    padding: 15px;
+    font-size: x-large;
+    font-size: 450;
+}
+.mediamargin{
+    margin-bottom: 10px !important;
+}
+.br-none{
+    border-left: 2px solid #F2B30F !important;
+    border-radius: 5px 0 0 5px !important;
+}
+.b-right{
+    border-right: 2px solid #F2B30F !important;
+    border-radius:  0 5px 5px 0 !important;
+}
+.b-tino{
+    border-right: 2px solid #F2B30F !important;
+    border-radius:  0 5px 5px 0 !important;
+}
+.tinomedia{
+    margin-bottom: 10px;
+}
+.btnda{
+    border-radius: 5px !important;
+}
+.adverts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.discounts{
+    padding-top: 20px;
+}
+.discounts h2,.free h2{
+    color: #234B9A;
+   text-align: center;
+}
+.discounts p,.free p,.excel p{
+    padding: 5px;
+    color: #234B9A;
+}
+.discounts p{
+    margin-left: 15px;
+}
+.disc{
+    margin-left: 25px;
+    align-self: center;
+    width: 75%;
+    border-bottom: 2px solid #06348C;
+}
+.excel h2{
+    color: #234B9A;
+    text-align: center; 
+}
+.feer{
+    margin-left: 22px;
+    align-self: center;
+    width: 75%;
+    border-bottom: 2px solid #F20F0F;
+}
+.excellence{
+    margin-left: 38px;
+    align-self: center;
+    width: 60%;
+    border-bottom: 2px solid #37A335;
+}
+}
