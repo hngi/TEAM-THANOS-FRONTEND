@@ -78,7 +78,7 @@ right: 2rem!important;
 .facil-sec a{
   text-decoration: none!important;
 }
-.facil-sec p{
+ p.facil-sec{
   margin: auto;
 }
 #show-all-facilities {
